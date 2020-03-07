@@ -1,20 +1,17 @@
 <template>
     <div class="ht-tab-wrap">
         <b-tabs class="ht-tab-menu wow move-up">
-        <b-tab title="Our mission">
+        <b-tab title="Mission">
             <!-- tab content two component -->
             <TabContentTwo />
         </b-tab>
-            <b-tab title="Career Management" active>
-                <!-- tab content one component -->
+            <b-tab title="Careers" active>
                 <TabContentOne />
             </b-tab>
-            <b-tab title="Cultural Fit" active>
-                <!-- tab content one component -->
+            <b-tab title="Cultures" active>
                 <TabContentFive />
             </b-tab>
-            <b-tab title="Sweet Benefits">
-                <!-- tab content third component -->
+            <b-tab title="Benefits">
                 <TabContentFour />
             </b-tab>
         </b-tabs>
@@ -29,7 +26,7 @@
     import TabContentFive from '../components/TabContentFive'
 
     export default {
-        name: 'TabOne',
+        name: 'TabTwo',
         components: {
             TabContentOne,
             TabContentTwo,
