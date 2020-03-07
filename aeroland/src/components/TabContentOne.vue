@@ -8,17 +8,16 @@
             </div>
             <div class="col-lg-5">
                 <div class="tab-content-inner">
-                    <div class="heading mb-30">Meeting all of your requirements for SEO &amp; branding</div>
+                    <div class="heading mb-30" style="font-size: x-large">Let's maximize your career.</div>
                     <ul class="check-list green-check-list section-space--mb_50">
-                        <li class="list-item">Receive real-time business analytics </li>
-                        <li class="list-item">Cross-browser Compatible Design </li>
-                        <li class="list-item">Completely Gutenberg Ready </li>
-                        <li class="list-item">Highly Responsive Tools </li>
+                        <li class="list-item"><strong>Skip the hiring line.</strong><br>Interview with MNY and we'll onboard you to appropriate opportunities without having to jump through hoops over-and-over again.</li>
+                        <li class="list-item"><strong>Find opportunities.</strong><br> We have hourly (gig), Part-time and Full time work. </li>
+                        <li class="list-item"><strong>Don't get stuck.</strong><br> We proactively manage your career, updating you with new opportunities as they become available. </li>
+                        <li class="list-item"><strong>Make better money.</strong><br> MNY tracks of the careers of every CPA & EA in the United States, and uses the data to proactively optimize salaries and benefits for our members. </li>
                     </ul>
                     <div class="tab-button mb-30">
-                        <a href="#" class="ht-btn ht-btn-md">Learn more </a>
+                        <a href="#" class="ht-btn ht-btn-md">Get Started </a>
                     </div>
-                    <h6 class="sub-heading">What’s next in AeroLand? <a href="#" class="hover-style-link hover-style-link--green">Learn more</a></h6>
                 </div>
             </div>
         </div>
@@ -30,4 +29,3 @@
         name: 'TabContentOne'
     };
 </script>
-

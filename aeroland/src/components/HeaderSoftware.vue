@@ -68,7 +68,7 @@
                 if (this.lastPosition < window.scrollY && this.limitPosition < window.scrollY) {
                     this.scrolled = true;
                     // move up!
-                } 
+                }
                 if (this.lastPosition > window.scrollY) {
                     this.scrolled = true;
                     // move down
@@ -86,7 +86,7 @@
                     el.classList.remove(className);
                 }
             },
-        }, 
+        },
         created() {
             window.addEventListener("scroll", this.handleScroll);
         },

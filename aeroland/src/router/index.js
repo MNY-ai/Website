@@ -8,6 +8,7 @@ import HomeEbook from '../pages/HomeEbook'
 import HomeClinic from '../pages/HomeClinic'
 import HomePayment from '../pages/HomePayment'
 import HomeAgency from '../pages/HomeAgency'
+import HomeMNY from '../pages/HomeMNY'
 import HomeProductShowcase from '../pages/HomeProductShowcase'
 import ElementTabs from '../pages/elements/ElementTabs'
 import ElementAccordion from '../pages/elements/ElementAccordion'
@@ -27,8 +28,8 @@ import NotFound from '../pages/elements/404'
 export const routes = [
     {
         path:'/',
-        name: 'HomeBranding',
-        component: HomeBranding
+        name: 'HomeMNY',
+        component: HomeMNY
     },
     {
         path:'/sass',
@@ -140,7 +141,7 @@ export const routes = [
         name: 'ElementTestimonial',
         component: ElementTestimonial
     },
-    
+
     {
         path:'/element-counters',
         name: 'ElementCounters',

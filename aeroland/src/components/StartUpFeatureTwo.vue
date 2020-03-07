@@ -25,35 +25,20 @@
             return {
                 items: [
                     {
-                       icon: require('../assets/img/icons/aeroland-startup-box-icon-01.png'), 
-                       heading: 'Web Development', 
-                       text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                       icon: require('../assets/img/icons/aeroland-startup-box-icon-01.png'),
+                       heading: 'Work From Home',
+                       text: 'Work from any location you want to as long as you have access to the Internet you can work.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-02.png'), 
-                        heading: 'Social Media', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-02.png'),
+                        heading: 'Available Benefits',
+                        text: 'If you meet the minimum time requirements, MNY can provide you with health care and benefits.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-03.png'), 
-                        heading: 'SEO Marketing', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
-                    },
-                    {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-04.png'), 
-                        heading: 'Keyword Search', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
-                    },
-                    {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-05.png'), 
-                        heading: 'Email Optimization', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
-                    },
-                    {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-06.png'), 
-                        heading: 'Web Design', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
-                    },
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-03.png'),
+                        heading: 'On Your Schedule',
+                        text: 'Pick your schedule, and work as little or as much as you like to  you can change it weekly.'
+                    }
                 ]
             }
         }

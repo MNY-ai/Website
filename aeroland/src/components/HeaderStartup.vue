@@ -3,23 +3,20 @@
         <div class="container-fluid container-fluid--cp-150">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
             <b-navbar-brand class="navbar-brand logo-light" to="/branding">
-                <img :src='"../assets/img/logo/light-logo.png"' alt="logo">
+                <img :src='"../assets/img/logo/white-logo.png"' alt="MNY">
             </b-navbar-brand>
             <b-navbar-brand class="navbar-brand logo-dark" to="/branding">
-                <img :src='"../assets/img/logo/logo-dark.png"' alt="logo">
+                <img :src='"../assets/img/logo/logo-light.png"' alt="MNY">
             </b-navbar-brand>
             <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
                 <b-navbar-nav class="navbar-nav main-menu text-white">
-                    <b-nav-item to="/"><span>LANDING</span></b-nav-item>
                     <b-nav-item href="#home" class="scroll"><span>HOME</span></b-nav-item>
-                    <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
-                    <b-nav-item href="#platform" class="scroll"><span>PLATFORM</span></b-nav-item>
-                    <b-nav-item href="#team" class="scroll"><span>TEAM</span></b-nav-item>
+                    <b-nav-item href="#about" class="scroll"><span>WHAT WE DO</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
             <b-btn-group class="header-button button--white d-none d-xl-block">
-                <b-link class="btn btn--white">Hire Us Now</b-link>
+                <b-link class="btn btn--white">Get Started</b-link>
             </b-btn-group>
         </div>
     </b-navbar>
@@ -71,17 +68,17 @@
                 if (this.lastPosition < window.scrollY && this.limitPosition < window.scrollY) {
                     this.scrolled = true;
                     // move up!
-                } 
-                
+                }
+
                 if (this.lastPosition > window.scrollY) {
                     this.scrolled = true;
                     // move down
                 }
-                
+
                 this.lastPosition = window.scrollY;
                 this.scrolled = window.scrollY > 50;
             }
-        }, 
+        },
         created() {
             window.addEventListener("scroll", this.handleScroll);
         },

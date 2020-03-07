@@ -8,12 +8,9 @@
             </div>
             <div class="col-lg-5">
                 <div class="tab-content-inner">
-                    <h4 class="font-weight--light" style="">The best ways<br>to create websites</h4>
-                    <p class="dec section-space--mt_40 section-space--mb_40">We bring on like-minded and talented members to help you grow a stronger business for fiercely reaching towards higher goals every day. </p>
-                    <div class="tab-button section-space--mb_40">
-                        <a href="#" class="ht-btn ht-btn-md">Learn more </a>
-                    </div>
-                    <h6 class="sub-heading">What’s next in AeroLand? <a href="#" class="hover-style-link hover-style-link--green">Learn more</a></h6>
+                    <h4 class="font-weight--light" style="">We're on a quest to help maximize CPA &amp; EA careers</h4>
+                    <p class="dec section-space--mt_40 section-space--mb_40">Built by CPAs for CPAs &amp; EAs, MNY is an AI powered platform that delivers unprecedented career management for working professionals, helping you make more money, have more freedom, and love what you do. </p>
+                    
                 </div>
             </div>
         </div>
@@ -25,4 +22,3 @@
         name: 'TabContentTwo'
     };
 </script>
-
