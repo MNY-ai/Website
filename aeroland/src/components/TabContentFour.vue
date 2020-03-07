@@ -3,7 +3,7 @@
         <div class="row">
         <div class="col-lg-6">
             <div class="tab-mission-image">
-                <img src="../assets/img/banners/aeroland-tab-content-image-06.png" alt="" class="img-fluid">
+                <img src="../assets/img/banners/aeroland-macbook-01.png" alt="" class="img-fluid">
             </div>
         </div>
 

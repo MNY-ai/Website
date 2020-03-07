@@ -1,14 +1,14 @@
 <template>
     <div class="ht-tab-wrap">
         <b-tabs class="ht-tab-menu wow move-up">
-        <b-tab title="Mission" active>
+        <b-tab title="Our Mission" active>
             <!-- tab content two component -->
             <TabContentTwo />
         </b-tab>
-            <b-tab title="Careers>
+            <b-tab title="AI-Powered Career Management">
                 <TabContentOne />
             </b-tab>
-            <b-tab title="Cultures">
+            <b-tab title="Culture">
                 <TabContentFive />
             </b-tab>
             <b-tab title="Benefits">
