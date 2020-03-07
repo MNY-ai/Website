@@ -8,7 +8,7 @@
                         <span class="section-text_left wow move-up">We'd love to hear from you. Drop us a line and let's talk.</span>
                     </div>
                     <div class="contact-from-wrapper wow move-up">
-                        <form id="contact-form" action="http://hasthemes.com/file/mail.php" method="post">
+                        <form name="contact" method="POST" data-netlify="true">
                             <div class="contact-page-form">
                                 <div class="contact-input">
                                     <div class="contact-inner">
