@@ -8,25 +8,25 @@
                         <span class="section-text_left wow move-up">We'd love to hear from you. Drop us a line and let's talk.</span>
                     </div>
                     <div class="contact-from-wrapper wow move-up">
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form name="contact-mny" method="POST" data-netlify="true">
                             <div class="contact-page-form">
                                 <div class="contact-input">
                                     <div class="contact-inner">
-                                        <input name="con_name" type="text" placeholder="Name *">
+                                        <input type="text" name="con_name" placeholder="Name *">
                                     </div>
                                     <div class="contact-inner">
-                                        <input name="con_email" type="email" placeholder="Email *">
+                                        <input type="email" name="con_email" placeholder="Email *">
                                     </div>
                                 </div>
                                 <div class="contact-inner">
-                                    <input name="con_subject" type="text" placeholder="Subject *">
+                                    <input type="text" name="con_subject" placeholder="Subject *">
                                 </div>
                                 <div class="contact-inner contact-message">
                                     <textarea name="con_message" placeholder="Message *"></textarea>
                                 </div>
                                 <div class="contact-submit-btn">
                                     <button class="ht-btn ht-btn-md" type="submit">Send message</button>
-                                    <p class="form-messege"></p>
+                                    <p class="form-message">We'll only use this information to communicate with you.</p>
                                 </div>
                             </div>
                         </form>
