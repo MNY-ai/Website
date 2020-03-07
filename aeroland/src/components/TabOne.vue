@@ -1,14 +1,14 @@
 <template>
     <div class="ht-tab-wrap">
         <b-tabs class="ht-tab-menu wow move-up">
-        <b-tab title="Mission">
+        <b-tab title="Mission" active>
             <!-- tab content two component -->
             <TabContentTwo />
         </b-tab>
-            <b-tab title="Careers" active>
+            <b-tab title="Careers>
                 <TabContentOne />
             </b-tab>
-            <b-tab title="Cultures" active>
+            <b-tab title="Cultures">
                 <TabContentFive />
             </b-tab>
             <b-tab title="Benefits">
@@ -26,7 +26,7 @@
     import TabContentFive from '../components/TabContentFive'
 
     export default {
-        name: 'TabTwo',
+        name: 'TabOne',
         components: {
             TabContentOne,
             TabContentTwo,
